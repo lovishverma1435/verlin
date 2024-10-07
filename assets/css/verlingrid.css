@@ -1,0 +1,30 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+.container {
+    padding: 0 25px;
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.verlin_bag{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+ .verlin_bag1
+ {grid-area: 1/1/3/2;}
+    
